@@ -1,0 +1,56 @@
+
+name: "robert fabric test"
+
+x-loggingLevel: info
+
+client:
+
+  organization: Org1
+
+  logging:
+    level: debug
+
+  cryptoconfig:
+    path: /project/opt_fabric/fabricconfig/crypto-config
+
+  credentialStore:
+    path: "/tmp/hfc-kvs"
+    cryptoStore:
+      path: /tmp/msp
+
+
+  BCCSP:
+    security:
+     enabled: true
+     default:
+      provider: "SW"
+     hashAlgorithm: "SHA2"
+     softVerify: true
+     ephemeral: false
+     level: 256
+
+
+
+organizations:
+  Org1:
+    mspid: Org1MSP
+    cryptoPath:  peerOrganizations/org1.robertfabrictest.com/users/{userName}@org1.robertfabrictest.com/msp
+    peers:
+      - peer0.org1.robertfabrictest.com
+    certificateAuthorities:
+      - ca-org1
+    adminPrivateKey:
+      pem: "/project/opt_fabric/fabricconfig/crypto-config/peerOrganizations/org1.robertfabrictest.com/users/Admin@org1.robertfabrictest.com/msp/keystore/4cb0b17fdc61d192984ceb600c90adc4420b5ecebc13fe1bc6bc3752ece187e6_sk"
+    signedCert:
+      path: "/project/opt_fabric/fabricconfig/crypto-config/peerOrganizations/org1.robertfabrictest.com/users/Admin@org1.robertfabrictest.com/msp/signcerts/Admin@org1.robertfabrictest.com-cert.pem"
+
+
+certificateAuthorities:
+  ca-org1:
+    url: http://192.168.23.212:7054
+    httpOptions:
+      verify: true
+    registrar:
+      enrollId: admin
+      enrollSecret: adminpw
+    caName: ca-org1
