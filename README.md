@@ -6,12 +6,12 @@
 
 《区块链开发实战 Hyperledger Fabric关键技术与案例分析》 
 
-<a href="https://search.jd.com/Search?keyword=区块链开发实战&enc=utf-8&wq=区块链开发实战&pvid=62e6789cc6ca42ed967de131df18fae8"><img width="400" height="600" src="https://github.com/blockchain-technical-practice/fabric_sdk_node_study/raw/master/pic/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E5%AE%9E%E6%88%98-fabric.jpeg"/></a>
+<a href="https://item.jd.com/12380456.html"><img width="400" height="600" src="https://github.com/blockchain-technical-practice/fabric_sdk_node_study/raw/master/pic/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E5%AE%9E%E6%88%98-fabric.jpeg"/></a>
 
 
 如果您觉得本丛书的代码对您有帮助请购买本正版图书，谢谢。
 
-[购买链接](https://search.jd.com/Search?keyword=区块链开发实战&enc=utf-8&wq=区块链开发实战&pvid=62e6789cc6ca42ed967de131df18fae8)
+[购买链接](https://item.jd.com/12380456.html)
 
 ## 问题反馈，
 
